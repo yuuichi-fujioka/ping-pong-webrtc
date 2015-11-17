@@ -1,0 +1,9 @@
+{
+  "name": "webrtc-echo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pong.js",
+  "dependencies": {
+    "wrtc": "0.0.59"
+  }
+}
