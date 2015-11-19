@@ -4,7 +4,7 @@ var RTCPeerConnection     = webrtc.RTCPeerConnection;
 var RTCSessionDescription = webrtc.RTCSessionDescription;
 var RTCIceCandidate       = webrtc.RTCIceCandidate;
 
-var pc1 = new RTCPeerConnection({"iceServers":[]});
+var pc1 = new RTCPeerConnection({"iceServers":[{"url":"stun:stun.l.google.com:19302"}]});
 
 pc1.onicecandidate = function(candidate) {
   if(!candidate.candidate) return;

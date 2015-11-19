@@ -4,8 +4,6 @@
 * https://html5experts.jp/mganeko/5181/
 * https://github.com/js-platform/node-webrtc/blob/develop/examples/ping-pong-test.js
 
-※: stunサーバーを使ってないので、ローカルネットじゃないとつながらないと思います。
-
 ## 使い方
 
 ### サーバー
